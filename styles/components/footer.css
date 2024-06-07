@@ -1,0 +1,47 @@
+
+.main-footer{
+    background-color: var(--color_primary_-05);
+    height: 320px;
+}
+
+.main-footer .footer-rights {
+    line-height: 1.2;
+    color: var(--color_primary_-04);
+}
+
+.main-footer .footer-rights a{
+    color: var(--color_primary_-01);
+    font-family: lato-bold, sans-serif;
+    font-weight: 700;
+    text-decoration-line: none;
+}
+
+.main-footer li{
+    display: block;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: var(--color_secondary_base);
+    background-color: var(--color_secondary_-01);
+}
+
+.main-footer li:hover{
+    cursor: pointer;
+}
+
+.main-footer li.facebook:hover{
+    background-color: var(--color_facebook);
+}
+
+.main-footer li.twitter:hover{
+    background-color: var(--color_twitter);
+}
+
+.main-footer li.behance:hover{
+    background-color: var(--color_behance);
+}
+
+.main-footer li.basketball:hover{
+    background-color: var(--color_basketball);
+}

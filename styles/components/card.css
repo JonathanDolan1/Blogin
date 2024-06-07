@@ -1,0 +1,33 @@
+.card {
+    border-inline: 1px solid var(--color_primary_-06);
+}
+
+.card .card-title {
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    font-family: lato-bold, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.07142857143;
+    color: var(--color_primary_01);
+    margin-inline-end: 17%;
+}
+
+.card p{
+    margin-block-start:0;
+}
+
+.card .card-link{
+    font-family: lato-bold,sans-serif;
+    font-size: 1rem;
+    color: var(--color_primary_-03);
+    background-color: #ffffff;
+    border: 2px solid var(--color_primary_-02);
+    border-radius: 20px;
+    padding: 10px 26px; 
+}
+
+.card .card-link:hover{
+    color: var(--color_secondary_01);
+    border-color: var(--color_secondary_01);
+    cursor: pointer;
+}

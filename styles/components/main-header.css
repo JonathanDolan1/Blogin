@@ -1,0 +1,22 @@
+.main-header{
+    background-color: var(--color_secondary_02);
+    margin-block-end: 80px;
+}
+
+.main-header .main-header-content {
+    height: 135px;
+    color: var(--color_secondary_base);
+}
+
+.main-header .main-nav{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(4,minmax(auto,130px));
+    place-items: center;
+    grid-template-rows: 135px;
+}
+
+.main-header li:hover{
+    color: var(--color_secondary_01);
+    cursor: pointer;
+}

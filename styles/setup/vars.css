@@ -1,0 +1,18 @@
+:root {
+    --color_primary_-06: rgba(225, 224, 224, 1);
+    --color_primary_-05: #f8f8f8;
+    --color_primary_-04: #a6a6a6;
+    --color_primary_-03: rgb(194, 193, 193);
+    --color_primary_-02: rgb(194, 194, 194);
+    --color_primary_-01: #828282;
+    --color_primary_base: #616161;
+    --color_primary_01: hsl(0, 1%, 31%);
+    --color_secondary_-01: #e5e5e5;
+    --color_secondary_base: #ffffff;
+    --color_secondary_01: #58C93A;
+    --color_secondary_02: rgba(41, 41, 41, 1);
+    --color_facebook: #4267B2;
+    --color_twitter: #1DA1F2;
+    --color_behance: #053eef;
+    --color_basketball: orange;
+}
