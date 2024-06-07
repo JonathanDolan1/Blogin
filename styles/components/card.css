@@ -9,11 +9,12 @@
     letter-spacing: 1px;
     line-height: 1.07142857143;
     color: var(--color_primary_01);
-    margin-inline-end: 17%;
+    margin-inline-end: 50px;
 }
 
 .card p{
     margin-block-start:0;
+    margin-inline-end:50px;
 }
 
 .card .card-link{
