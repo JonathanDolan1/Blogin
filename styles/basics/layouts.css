@@ -18,8 +18,7 @@
 
  .cards-container-layout{
    display: grid;
-   grid-template-rows: repeat(3,auto);
-   row-gap:80px;
+   grid-template-rows: 80px auto 80px auto 80px auto 80px;
  }
 
  .card-layout{

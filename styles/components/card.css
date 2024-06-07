@@ -1,4 +1,4 @@
-.card {
+.card , .grid-border-container{
     border-inline: 1px solid var(--color_primary_-06);
 }
 
@@ -20,7 +20,7 @@
     font-family: lato-bold,sans-serif;
     font-size: 1rem;
     color: var(--color_primary_-03);
-    background-color: #ffffff;
+    background-color: var(--color_secondary_base);
     border: 2px solid var(--color_primary_-02);
     border-radius: 20px;
     padding: 10px 26px; 
@@ -30,4 +30,14 @@
     color: var(--color_secondary_01);
     border-color: var(--color_secondary_01);
     cursor: pointer;
+}
+
+.card .card-link .icon{
+    display: none;
+    margin-inline-start: 1em;
+    color: var(--color_secondary_02)
+}
+
+.card .card-link:hover .icon{
+    display: revert;
 }
