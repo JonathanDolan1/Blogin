@@ -3,31 +3,21 @@
     top: 0;
     background-color: var(--color_secondary_02);
     box-shadow: inset 0px -4px 0px 0px var(--color_secondary_03);
+    --main-header-height: 80px;
 }
 
 .main-header .main-header-content {
-    height: 135px;
+    height: var(--main-header-height);
     color: var(--color_secondary_base);
 }
 
-.main-header li{
-    height: 100%;
-    width: 100%;
-    text-align: center;
-    line-height: 135px;
-    border: solid var(--color_secondary_03);
-    border-block-width: 1px;
-    border-inline-width: 0.5px;
-}
-
-.main-header li:first-child{
-    border-inline-start-width: 1px;
-}
-
-.main-header li:last-child{
-    border-inline-end-width: 1px;
-}
-
-.main-header li:hover{
+.main-header li:hover, .main-header .menu-button:hover{
     cursor: pointer;
+}
+
+.main-header .menu-button{
+    background-color: rgb(240 230 140 / 0%);
+    border: none;
+    font-size: 2rem;
+    color: white;
 }

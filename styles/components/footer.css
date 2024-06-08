@@ -5,6 +5,7 @@
 }
 
 .main-footer .footer-rights {
+    text-align: center;
     line-height: 1.2;
     color: var(--color_primary_-04);
 }

@@ -14,3 +14,11 @@ function cleanLis(){
         elLi.style.color = 'var(--color_secondary_base)'
     })
 }
+
+function onMenuButtonClicked(){
+    const elMainNavContainer = document.querySelector('.main-nav-container')
+    console.log(elMainNavContainer);
+    elMainNavContainer.classList.toggle('shown')
+    const elBackdrop = document.querySelector('.backdrop')
+    elBackdrop.classList.toggle('shown')
+}
